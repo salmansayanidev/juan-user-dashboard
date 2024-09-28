@@ -11,54 +11,65 @@ include "header.php"
     <section class="dashboard-section">
         <div class="container-fluid">
             <div class="row align-items-center">
-                
+
                 <?php include "main-search-area.php" ?>
 
             </div>
             <div class="row">
 
-                <div class="col-12 col-lg-9">
+                <div class="col-12 col-lg-12 col-xxl-9">
                     <div class="index-left-area">
                         <div class="row">
                             <div class="col-12 col-lg-8">
                                 <div class="your-progress-assets-area mb-4">
                                     <div class="row">
-                                        <div class="col-12 col-lg-6">
-                                            <h3 class="sb-title">Your Progress & Assets</h3>
-                                            <span class="head-para fw-medium d-block">Achievement</span>
-                                            <div class="circular-progress mt-4 flex-column" data-inner-circle-color="white" data-percentage="82" data-progress-color="#FFBB45" data-bg-color="#E2E2E2">
-                                                <div class="inner-circle"></div>
-                                                <p class="percentage m-0">0%</p>
-                                                <p class="circle-text m-0 position-relative">Lorem ipsum</p>
+                                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                            <div class="text-wbkit-center">
+                                                <h3 class="sb-title">Your Progress & Assets</h3>
+                                                <span class="head-para fw-medium  d-block">Achievement</span>
+                                                <div class="circular-progress mt-4 flex-column" data-inner-circle-color="white" data-percentage="82" data-progress-color="#FFBB45" data-bg-color="#E2E2E2">
+                                                    <div class="inner-circle"></div>
+                                                    <p class="percentage m-0">0%</p>
+                                                    <p class="circle-text m-0 position-relative">Lorem ipsum</p>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-lg-6">
-                                            <div class="asset-box mb-4">
-                                                <span class="asset-icon-circle" style="--bg-color: #F9A035;">
-                                                    <img class="img-fluid" src="./assets/images/asset-icon-1.png" alt="">
-                                                </span>
-                                                <span class="asset-title">Bitcoin</span>
-                                                <div class=" d-flex justify-content-between align-items-center">
-                                                    <h4 class="asset-amount m-0">121,6401.26</h4>
-                                                    <span class="asset-tag">BTC</span>
+                                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                            <div class="">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-12 col-md-12">
+                                                        <div class="asset-box mb-4">
+                                                            <span class="asset-icon-circle" style="--bg-color: #F9A035;">
+                                                                <img class="img-fluid" src="./assets/images/asset-icon-1.png" alt="">
+                                                            </span>
+                                                            <span class="asset-title">Bitcoin</span>
+                                                            <div class=" d-flex justify-content-between align-items-center">
+                                                                <h4 class="asset-amount m-0">121,6401.26</h4>
+                                                                <span class="asset-tag">BTC</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-12 col-md-12">
+                                                        <div class="asset-box mb-4">
+                                                            <span class="asset-icon-circle" style="--bg-color: #5E90DB;">
+                                                                <img class="img-fluid" src="./assets/images/asset-icon-2.png" alt="">
+                                                            </span>
+                                                            <span class="asset-title">Bitcoin</span>
+                                                            <div class=" d-flex justify-content-between align-items-center">
+                                                                <h4 class="asset-amount m-0">121,6401.26</h4>
+                                                                <span class="asset-tag">BTC</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="asset-box mb-4">
-                                                <span class="asset-icon-circle" style="--bg-color: #5E90DB;">
-                                                    <img class="img-fluid" src="./assets/images/asset-icon-2.png" alt="">
-                                                </span>
-                                                <span class="asset-title">Bitcoin</span>
-                                                <div class=" d-flex justify-content-between align-items-center">
-                                                    <h4 class="asset-amount m-0">121,6401.26</h4>
-                                                    <span class="asset-tag">BTC</span>
-                                                </div>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
-                                <div class="">
+                            <div class="col-12 col-lg-4 ">
+                                <div class="calender-area">
                                     <fieldset>
                                         <div class="hero">
                                             <!--<span id="sidebarToggler" role="button" aria-pressed="" title="Close sidebar"><button class="icon-button close" type="button" fdprocessedid="t9ozsg"><span class="bars"></span></button></span>-->
@@ -103,7 +114,7 @@ include "header.php"
                                     <div id="chartdiv" class="mt-5"></div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-lg-4 ">
                                 <div class="your-progress-assets-area bitcoin-summary-area">
                                     <div class=" d-flex justify-content-between mb-5">
                                         <h3 class="sb-title">Bitcoin Summary</h3>
@@ -165,148 +176,156 @@ include "header.php"
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-12 col-xxl-3">
                     <div class="index-right-area">
                         <div class="your-progress-assets-area">
                             <h3 class="sb-title">Trading Community</h3>
-                            <div class="faq-box active mt-5">
-								<button type="button" class="faq-btn">
-									<div class=" d-flex justify-content-start align-items-center gap-3">
-                                        <span class="faq-icon">
-                                            <i class="fa-solid fa-angle-down"></i>
-                                        </span>
-                                        <span class="faq-question">Nick's Traders</span>
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-xxl-12 col-lg-4 col-md-6">
+                                    <div class="faq-box active mt-5">
+                                        <button type="button" class="faq-btn">
+                                            <div class=" d-flex justify-content-start align-items-center gap-3">
+                                                <span class="faq-icon">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </span>
+                                                <span class="faq-question">Nick's Traders</span>
+                                            </div>
+                                            <div class="">
+                                                <span class="faq-icon">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </span>
+                                            </div>
+                                        </button>
+                                        <div class="faq-text-area">
+                                            <ul class="trading-community-list">
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="">
-                                        <span class="faq-icon">
-                                            <i class="fa-solid fa-minus"></i>
-                                        </span>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xxl-12 col-lg-4 col-md-6">
+                                    <div class="faq-box active mt-5">
+                                        <button type="button" class="faq-btn">
+                                            <div class=" d-flex justify-content-start align-items-center gap-3">
+                                                <span class="faq-icon">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </span>
+                                                <span class="faq-question">Nick's Traders</span>
+                                            </div>
+                                            <div class="">
+                                                <span class="faq-icon">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </span>
+                                            </div>
+                                        </button>
+                                        <div class="faq-text-area">
+                                            <ul class="trading-community-list">
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-								</button>
-								<div class="faq-text-area">
-									<ul class="trading-community-list">
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xxl-12 col-lg-4 col-md-6">
+                                    <div class="faq-box active mt-5">
+                                        <button type="button" class="faq-btn">
+                                            <div class=" d-flex justify-content-start align-items-center gap-3">
+                                                <span class="faq-icon">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </span>
+                                                <span class="faq-question">Nick's Traders</span>
                                             </div>
                                             <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                <span class="faq-icon">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </span>
                                             </div>
-                                        </li>
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
-                                            </div>
-                                            <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
-                                            </div>
-                                        </li>
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
-                                            </div>
-                                            <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
-                                            </div>
-                                        </li>
-                                    </ul>
-								</div>
-							</div>
-                            <div class="faq-box active mt-5">
-								<button type="button" class="faq-btn">
-									<div class=" d-flex justify-content-start align-items-center gap-3">
-                                        <span class="faq-icon">
-                                            <i class="fa-solid fa-angle-down"></i>
-                                        </span>
-                                        <span class="faq-question">Nick's Traders</span>
+                                        </button>
+                                        <div class="faq-text-area">
+                                            <ul class="trading-community-list">
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                                <li class="trading-community-li d-flex justify-content-between align-items-center">
+                                                    <div class=" d-flex justify-content-start gap-4 align-items-center">
+                                                        <span class="trad-comm-circle"></span>
+                                                        <h3 class="trading-community-name m-0">Forex-Trades</h3>
+                                                    </div>
+                                                    <div class="">
+                                                        <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="">
-                                        <span class="faq-icon">
-                                            <i class="fa-solid fa-minus"></i>
-                                        </span>
-                                    </div>
-								</button>
-								<div class="faq-text-area">
-									<ul class="trading-community-list">
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
-                                            </div>
-                                            <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
-                                            </div>
-                                        </li>
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
-                                            </div>
-                                            <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
-                                            </div>
-                                        </li>
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
-                                            </div>
-                                            <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
-                                            </div>
-                                        </li>
-                                    </ul>
-								</div>
-							</div>
-                            <div class="faq-box active mt-5">
-								<button type="button" class="faq-btn">
-									<div class=" d-flex justify-content-start align-items-center gap-3">
-                                        <span class="faq-icon">
-                                            <i class="fa-solid fa-angle-down"></i>
-                                        </span>
-                                        <span class="faq-question">Nick's Traders</span>
-                                    </div>
-                                    <div class="">
-                                        <span class="faq-icon">
-                                            <i class="fa-solid fa-minus"></i>
-                                        </span>
-                                    </div>
-								</button>
-								<div class="faq-text-area">
-									<ul class="trading-community-list">
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
-                                            </div>
-                                            <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
-                                            </div>
-                                        </li>
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
-                                            </div>
-                                            <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
-                                            </div>
-                                        </li>
-                                        <li class="trading-community-li d-flex justify-content-between align-items-center">
-                                            <div class=" d-flex justify-content-start gap-4 align-items-center">
-                                                <span class="trad-comm-circle"></span>
-                                                <h3 class="trading-community-name m-0">Forex-Trades</h3>
-                                            </div>
-                                            <div class="">
-                                                <img class="img-fluid" src="./assets/images/chart-img.png" alt="">
-                                            </div>
-                                        </li>
-                                    </ul>
-								</div>
-							</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -326,6 +345,3 @@ include "footer.php"
 <script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.3/evo-calendar/js/evo-calendar.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/color-calendar/dist/bundle.min.js"></script>
 <script src="./assets/js/index.js"></script>
-
-
-

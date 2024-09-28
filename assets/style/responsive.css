@@ -1,138 +1,1339 @@
+@media (max-width: 1650px) {
+  html {
+    font-size: 9px;
+  }
+  .login-section-left {
+    max-width: 680px;
+  }
+  .access-tag {
+    max-width: 320px;
+  }
+  .subs-points-list {
+    height: 250px;
+  }
+  .mar-edge-rep-btns .course-enroll-link {
+    gap: 5px;
+    padding: 9px 15px;
+    font-size: 1.3rem;
+  }
+  .event-detail-img {
+    height: 400px;
+    margin-bottom: 25px;
+  }
+  .enrolled-video {
+    height: 550px;
+  }
+
+  .course-slider-area {
+    padding: 0 4rem;
+  }
+  .event-trailor-video-btn {
+    height: 170px;
+    width: 170px;
+  }
+  .course-card {
+    padding: 2rem 2rem;
+    margin: 0 0.7rem;
+  }
+  .upcoming-course-area {
+    padding: 20px 20px 50px;
+  }
+  .event-table tr td {
+    padding: 12px 15px 12px 20px;
+    font-size: 1.6rem;
+  }
+  .event-table tr th {
+    padding: 12px 15px 0 20px;
+    font-size: 1.6rem;
+  }
+  .learning-list-circle {
+    height: 17px;
+    max-width: 17px;
+    font-size: 1.2rem;
+  }
+  .chat-footer {
+    padding: 20px 30px;
+  }
+  .message-area {
+    padding: 20px 30px;
+  }
+  .message-sender-area {
+    padding: 15px 30px;
+  }
+  .message-area {
+    height: calc(100vh - 330px);
+  }
+  .users-detail-area {
+    height: calc(100vh - 190px);
+  }
+  .chat-header {
+    height: 80px;
+  }
+  .chat-search-area {
+    height: 80px;
+  }
+
+  .header {
+    padding: 2.5rem 3rem;
+  }
+  .main {
+    padding: 3rem 3rem;
+  }
+  .inner-circle {
+    width: 180px;
+    height: 180px;
+  }
+  .circular-progress {
+    width: 240px;
+    height: 240px;
+  }
+  tr.calendar-header .calendar-header-day {
+    padding: 10px 5px 10px 5px;
+  }
+  button.close {
+    top: 12px;
+  }
+  th[colspan="7"] {
+    padding-bottom: 5px;
+  }
+  .event-hide .calendar-inner {
+    max-width: 100%;
+    height: 330px;
+  }
+  .calendar-months {
+    height: 270px !important;
+  }
+  .bitcoin-summ-amount-area {
+    gap: 30px;
+  }
+  .your-progress-assets-area.bitcoin-summary-area
+    .d-flex.justify-content-between.mb-5 {
+    margin-bottom: 20px !important;
+  }
+  .your-progress-assets-area.bitcoin-summary-area {
+    margin-top: -75px;
+  }
+  .your-progress-assets-area {
+    padding: 3rem 1.5rem;
+  }
+  .search-btn {
+    width: 52px;
+    height: 48px;
+  }
+  .bitcoin-summ-table-area {
+    overflow-x: auto;
+  }
+  .bitcoin-summ-table-area::-webkit-scrollbar {
+    height: 5px;
+  }
+  .bitcoin-summ-table {
+    min-width: 300px;
+  }
+  .sorting-selects-area div:nth-child(2) {
+    width: 23%;
+  }
+}
+
+@media (max-width: 1460px) {
+  html {
+    font-size: 8px;
+  }
+  .login-section-left {
+    max-width: 600px;
+  }
+  .pricing-disc-area {
+    padding: 0 20px;
+  }
+  .access-tag {
+    max-width: 290px;
+  }
+  .subs-plan-area {
+    padding: 30px 0;
+  }
+  .price-yearly-access {
+    max-width: 460px;
+  }
+  .archives-img {
+    height: 190px;
+    border-radius: 6px;
+  }
+  .analysis-archive-video {
+    height: 190px;
+  }
+  .course-detail-img {
+    height: 400px;
+  }
+  .notify-circle {
+    top: 1px;
+    right: -6px;
+  }
+  .user-list-sidebar {
+    max-width: 400px;
+  }
+  .course-price-area {
+    margin-top: 15px;
+  }
+  .course-title {
+    margin: 15px 0;
+  }
+  .event-trailor-video {
+    height: 250px;
+  }
+  .event-trailor-video-btn {
+    height: 150px;
+    width: 150px;
+  }
+  .event-detail-right {
+    padding: 30px 15px 50px;
+  }
+  .circular-progress {
+    width: 210px;
+    height: 210px;
+  }
+  .inner-circle {
+    width: 150px;
+    height: 150px;
+  }
+  .asset-box {
+    border-radius: 20px;
+    padding: 1.5rem 1.2rem 1.8rem;
+  }
+  .your-progress-assets-area.bitcoin-summary-area {
+    margin-top: -72px;
+  }
+  tr.calendar-body .calendar-day {
+    padding: 3px 0;
+  }
+  .event-hide .calendar-inner {
+    height: 300px;
+  }
+  button.close {
+    top: 8px;
+  }
+  .your-progress-assets-area {
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+  }
+  .input-search {
+    padding: 12px 10px 12px 60px;
+  }
+  tr.calendar-body .calendar-day .day {
+    border-radius: 5px;
+  }
+  .link {
+    font-size: 1.8rem;
+  }
+  .bitcoin-summ-table tr td {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1414px) {
+  .your-progress-assets-area.bitcoin-summary-area {
+    margin-top: -55px;
+  }
+  .course-card {
+    padding: 1.5rem 1.5rem;
+  }
+  .analysis-archive-video {
+    height: 170px;
+  }
+  .your-progress-assets-area.bitcoin-summary-area
+    .d-flex.justify-content-between.mb-5 {
+    margin-bottom: 8px !important;
+  }
+  .event-detail-tabs {
+    margin: 30px 0 30px;
+  }
+  .event-learning-li {
+    width: 100%;
+  }
+  .enrolled-video {
+    height: 480px;
+  }
+  .analysis-archive-video {
+    height: 170px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .profile-area-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+  }
+  .login-label {
+    font-size: 1.6rem;
+  }
+  .form-floating > .form-control-plaintext ~ label,
+  .form-floating > .form-control:focus ~ label,
+  .form-floating > .form-control:not(:placeholder-shown) ~ label,
+  .form-floating > .form-select ~ label {
+    transform: scale(0.9) translateY(-5rem) translateX(0.15rem);
+  }
+  .access-tag {
+    max-width: 260px;
+    font-size: 2.8rem;
+  }
+  .subs-points-list {
+    height: 220px;
+  }
+  .price-yearly-access {
+    max-width: 420px;
+    padding: 20px 20px;
+  }
+  .enrolled-course-area {
+    padding: 20px 20px;
+  }
+  .add-resources {
+    font-size: 1.3rem;
+  }
+  .sorting-selects-area div:nth-child(1) {
+    width: 17%;
+  }
+  .archives-img {
+    height: 170px;
+  }
+  .archive-down-btn {
+    height: 32px;
+    width: 32px;
+  }
+  .sorting-selects-area div:nth-child(2) {
+    width: 28%;
+  }
+  .course-table tr th {
+    padding: 15px 20px 0px 20px;
+  }
+  .course-table tr td {
+    padding: 15px 20px 15px 21px;
+  }
+  .course-slider-area {
+    padding: 0 3rem;
+  }
+  .event-detail-img {
+    height: 310px;
+  }
+  .event-detail-right {
+    padding: 20px 10px 40px;
+    margin-bottom: 30px;
+  }
+  .event-detail-left {
+    padding: 20px 20px;
+  }
+  .course-img {
+    border-radius: 5px;
+    height: 170px;
+  }
+  .index-right-area {
+    height: 100%;
+    margin-top: 20px;
+  }
+  .user-profile-area {
+    padding: 15px 20px;
+  }
+  .user-list-sidebar {
+    max-width: 360px;
+  }
+  .chat-header-left {
+    gap: 20px;
+  }
+  .chat-user-img-area {
+    max-width: 54px;
+  }
+  .chat-user-img {
+    height: 54px;
+    width: 54px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .add-card-btn {
+    margin-top: 20px;
+  }
+  #payment-listing-table_wrapper .row.dt-row {
+    overflow: auto;
+  }
+  #payment-listing-table_wrapper .row.dt-row .col-sm-12 {
+    min-width: 1200px;
+  }
+  .event-detail-reviews-area div::after {
+    right: -27px;
+  }
+  .login-section-left {
+    max-width: 540px;
+  }
+  .access-tag {
+    max-width: 240px;
+    font-size: 2.5rem;
+  }
+  .subs-plans {
+    margin-top: 30px;
+  }
+  .subs-pricing-area {
+    margin-bottom: 50px;
+  }
+  .choose-plan {
+    padding: 10px 10px;
+  }
+  .pricing-disc-area {
+    padding: 0 13px;
+  }
+  .subs-plan-area .yearly-access-price {
+    margin: 15px 0 15px !important;
+  }
+  .main {
+    padding: 3rem 2.5rem;
+  }
+  .archives-img {
+    height: 150px;
+  }
+  .archive-down-btn {
+    height: 28px;
+    width: 28px;
+    top: 5px;
+    right: 5px;
+  }
+  .course-card {
+    padding: 1.5rem 1.2rem;
+  }
+  .mar-edge-rep-btns .course-enroll-link {
+    gap: 3px;
+    padding: 7px 3px;
+    font-size: 1.2rem;
+  }
+  .analysis-archive-video {
+    height: 150px;
+  }
+  .mar-edge-rep-btns .course-enroll-link {
+    gap: 4px;
+    padding: 7px 6px;
+    font-size: 1.3rem;
+  }
+  .erolled-profile {
+    width: 90px;
+    height: 90px;
+  }
+  .enrolled-video {
+    height: 450px;
+  }
+  .enrolled-course-title br,
+  .enrolled-video-time br {
+    display: none;
+  }
+  .circle-angel {
+    height: 24px;
+    width: 24px;
+    font-size: 2rem;
+  }
+  .course-disc-para {
+    font-size: 1.8rem;
+  }
+  .course-detail-img {
+    height: 360px;
+  }
+  .course-admin-tag-2 {
+    font-size: 2rem;
+  }
+  .course-detail-disc-list li {
+    margin-bottom: 25px;
+  }
+  #course-alert-table_wrapper .row.dt-row {
+    overflow: auto;
+  }
+  #course-alert-table_wrapper .row.dt-row .col-sm-12 {
+    min-width: 980px;
+  }
+  #trading-alert-table_wrapper .row.dt-row {
+    overflow: auto;
+  }
+  #trading-alert-table_wrapper .row.dt-row::-webkit-scrollbar,
+  #course-alert-table_wrapper .row.dt-row::-webkit-scrollbar,
+  #payment-listing-table_wrapper .row.dt-row::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  #trading-alert-table_wrapper .row.dt-row .col-sm-12 {
+    min-width: 1200px;
+  }
+  #trading-alert-table_wrapper .row:last-child,
+  #course-alert-table_wrapper .row:last-child,
+  #payment-listing-table_wrapper .row:last-child {
+    margin-top: 20px;
+  }
+  .event-detail-reviews-area {
+    gap: 50px;
+  }
+  .event-trailor-video {
+    height: 200px;
+  }
+  .event-trailor-video-btn {
+    height: 130px;
+    width: 130px;
+  }
+  .event-detail-img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1202px) {
+  .pay-container {
+    max-height: 220px;
+  }
+  .payment-table tr td {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .pay-container {
+    max-height: 250px;
+  }
+  .menu-btn {
+    display: flex;
+    height: 40px;
+    width: 40px;
+  }
+  .login-section-left {
+    max-width: 480px;
+  }
+  .login-section-right {
+    padding: 5rem 1rem 5rem 4rem;
+  }
+  .profile-area-main {
+    gap: 15px;
+  }
+  .event-trailor-video {
+    height: 270px;
+  }
+  .event-detail-right {
+    float: unset;
+  }
+  .event-detail-left {
+    margin-bottom: 30px;
+  }
+  .chat-search {
+    font-size: 14px;
+  }
+  .chat-footer {
+    padding: 15px 20px;
+  }
+  .message-area {
+    padding: 20px 20px;
+  }
+  .chat-header {
+    padding: 8px 20px 8px 20px;
+  }
+  .chat-search-area {
+    padding: 10px 20px;
+  }
+  .chat-search::placeholder {
+    font-size: 14px;
+  }
+  .header-btn {
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  .dashboard-main {
+    position: relative;
+  }
+  .sorting-selects-area div:nth-child(2) {
+    width: 32%;
+  }
+  .sorting-selects-area div:nth-child(1) {
+    width: 20%;
+  }
+  .side-bar {
+    position: fixed;
+    z-index: 9999;
+    max-width: unset;
+    width: 40vw;
+    top: 0;
+    left: -100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .side-bar.active {
+    left: 0;
+  }
+  .sidebar-cls-btn {
+    display: flex;
+  }
+}
+
+@media (max-width: 991px) {
+  .form-container {
+    margin-top: 50px;
+  }
+  .field-container {
+    margin-bottom: 20px;
+  }
+  .enrolled-img-title-area {
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: start !important;
+    gap: 20px !important;
+  }
+  #chartContainer-analysis {
+    height: 320px !important;
+  }
+  .analysis-main-tabs-list {
+    gap: 5px;
+  }
+  .login-right-logo-area {
+    display: block;
+  }
+  .login-para br {
+    display: none;
+  }
+  .login-section-left {
+    display: none;
+  }
+  .login-fields-main {
+    max-width: unset;
+    width: 100%;
+  }
+  .login-title {
+    font-size: 6rem;
+  }
+  .login-section-right {
+    padding: 5rem 1rem 5rem 1rem;
+  }
+  .profile-fields {
+    padding: 6px 15px;
+  }
+  .subs-plan-area {
+    padding: 20px 0;
+    margin-bottom: 30px;
+  }
+  .profile-area-main-right {
+    max-width: 220px;
+  }
+  .profile-detail-img {
+    height: 202px;
+  }
+  .add-resources.daily-analysis {
+    font-size: 1.6rem;
+  }
+  .analysis-archive {
+    margin-bottom: 20px;
+  }
+  div.course-card {
+    margin-bottom: 20px !important;
+  }
+  .archives-img {
+    height: 180px;
+  }
+  .analysis-archive-video {
+    height: 180px;
+  }
+  .enrolled-video {
+    height: 380px;
+  }
+  .inst-dura-detail-main {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+  .inst-dura-detail {
+    gap: 0;
+    justify-content: space-between !important;
+    width: 100%;
+  }
+  .header-btn {
+    gap: 30px;
+  }
+  .course-tag {
+    font-size: 1.8rem;
+  }
+  .course-disc-para {
+    font-size: 1.8rem;
+  }
+  .course-detail-img {
+    height: 320px;
+  }
+  .message-main {
+    position: relative;
+  }
+  .userListCloseBtn {
+    display: flex;
+  }
+  .message-area {
+    height: calc(100vh - 315px);
+  }
+  .user-list-sidebar {
+    max-width: 360px;
+    position: absolute;
+    left: -150%;
+    top: 0;
+    z-index: 999;
+    box-shadow: 10px 0px 20px 0 #00000038;
+    transition: 0.5s all ease-in-out;
+  }
+  .user-list-sidebar.active {
+    left: 0;
+  }
+  .message-sender-area {
+    padding: 10px 20px;
+  }
+  .chat-menu-btn {
+    display: flex;
+  }
+  .side-bar {
+    width: 50vw;
+  }
+  .calender-area {
+    margin-bottom: 15px;
+  }
+  .your-progress-assets-area.bitcoin-summary-area {
+    margin-top: 15px;
+  }
+  .header {
+    padding: 2rem 2rem;
+  }
+  .main {
+    padding: 2rem 2rem;
+  }
+  .search-btn {
+    width: 48px;
+    height: 44px;
+  }
+  .search-icon {
+    left: 20px;
+  }
+  .input-search {
+    padding: 12px 10px 12px 50px;
+    border-radius: 10px;
+  }
+  .sorting-selects-area div:nth-child(2) {
+    width: 39%;
+  }
+  .sorting-selects-area div:nth-child(1) {
+    width: 25%;
+  }
+}
+
 @media (max-width: 767px) {
-    /* button.close.active {
-      color: black;
-    } */
-    #progressbar {
-      display: none;
-    }
-  
-    .event-hide.sidebar-hide .calendar-inner {
-      max-width: 100%;
-      overflow: auto;
-    }
-  
-    .calendar-sidebar > .month-list,
-    .calendar-sidebar > .calendar-year {
-      background: #0b6322 !important;
-    }
-  
-    .sidebar-hide .calendar-sidebar {
-      height: auto;
-    }
-  
-    tr.calendar-header .calendar-header-day {
-      padding: 20px 0 0 0;
-      font-size: 19px;
-    }
-  
-    tr.calendar-body .calendar-day .day {
+  #trade-chartContainer {
+    height: 350px !important;
+  }
+  .analysis-main-tabs-list {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .analysis-circle-btns-list {
+    justify-content: center !important;
+  }
+  .sorting-selects-area {
+    justify-content: start;
+    margin-top: 20px;
+  }
+  .inst-dura-detail div::after {
+    right: -7vw;
+  }
+  .enrolled-video {
+    height: 340px;
+  }
+  .course-discription-area {
+    padding: 20px 20px;
+  }
+  .event-learning-li {
+    width: 49%;
+  }
+  .event-detail-right {
+    max-width: unset;
+  }
+  .dataTables_info {
+    text-align: center;
+  }
+  .dataTables_paginate .pagination {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .trading-alert-table-area .dataTables_info,
+  .dataTables_length label,
+  .dataTables_length label .form-select.form-select-sm,
+  .dataTables_filter label,
+  .dataTables_filter label .form-control.form-control-sm {
+    font-size: 1.8rem;
+  }
+  .dataTables_filter label {
+    justify-content: start;
+    margin-top: 10px;
+  }
+  .header-btn {
+    padding-left: 0;
+    margin-left: 20px;
+    border-left: none !important;
+    gap: 20px;
+  }
+
+  .user-img {
+    height: 40px;
+    width: 40px;
+  }
+  .sorting-selects-area div:nth-child(1) {
+    width: 100%;
+    max-width: 100px;
+  }
+  .sorting-selects-area div:nth-child(2) {
+    width: 100%;
+    max-width: 200px;
+  }
+  #progressbar {
+    display: none;
+  }
+
+  .event-hide.sidebar-hide .calendar-inner {
+    max-width: 100%;
+    overflow: auto;
+  }
+
+  .calendar-sidebar > .month-list,
+  .calendar-sidebar > .calendar-year {
+    background: #0b6322 !important;
+  }
+
+  .sidebar-hide .calendar-sidebar {
+    height: auto;
+  }
+
+  tr.calendar-header .calendar-header-day {
+    padding: 20px 0 0 0;
+    font-size: 19px;
+  }
+
+  tr.calendar-body .calendar-day .day {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .inst-dura-detail {
+    flex-wrap: wrap;
+    gap: 15px 0;
+  }
+  .inst-dura-detail div.position-relative {
+    width: 48%;
+  }
+  .inst-dura-detail div::after {
+    content: unset;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 7.5px;
+  }
+  .analysis-main-tab-btn {
+    padding: 7px 20px;
+  }
+  .analysis-main-tabs-list {
+    flex-wrap: wrap;
+  }
+  .analysis-circle-btn {
+    height: 30px;
+    width: 30px;
+  }
+  .analysis-main-tabs-list {
+    margin-bottom: 10px;
+  }
+  .main-tab-main {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .market-analysis-chart-area {
+    padding: 15px 10px;
+  }
+  #chartContainer-analysis {
+    height: 250px !important;
+  }
+  .login-fields {
+    height: 60px !important;
+  }
+  .field-icon-area {
+    height: 60px;
+    width: 60px;
+  }
+  .subs-plan-title {
+    text-align: center;
+  }
+  .subs-pricing-area {
+    flex-direction: column;
+  }
+  .profile-area-main {
+    gap: 25px 0;
+    flex-direction: column;
+  }
+  .profile-area-main-left {
+    flex-grow: 1;
+    width: 100%;
+  }
+  .archives-img {
+    height: 190px;
+  }
+  .analysis-archive-video {
+    height: 190px;
+  }
+  .notification-li {
+    gap: 15px;
+    padding: 12px 10px;
+  }
+  .notify-icon-area {
+    height: 40px;
+    max-width: 40px;
+  }
+  .enrolled-video {
+    height: 260px;
+  }
+  .enrolled-course-title {
+    font-size: 2.2rem;
+  }
+  .course-tabs-btns-list {
+    flex-wrap: wrap;
+    margin: 30px 0 30px;
+    gap: 0;
+    justify-content: space-between !important;
+  }
+  .erolled-profile {
+    width: 50px;
+    height: 50px;
+  }
+  .course-tabs-btns-list li {
+    width: 23%;
+  }
+  .course-tabs-btn {
+    padding: 7px 5px;
+  }
+  .course-tabs-btn {
+    width: 100%;
+  }
+  .course-img {
+    height: 250px;
+  }
+  .course-detail-img {
+    height: 280px;
+  }
+  .course-admin-pro {
+    gap: 30px;
+  }
+  .course-admin-pro div::after {
+    height: 5px;
+    width: 5px;
+    right: -17px;
+  }
+  .course-admin-img {
+    height: 45px;
+    width: 45px;
+  }
+  .event-detail-title {
+    padding-bottom: 20px;
+  }
+  .upcoming-course-area {
+    padding: 20px 15px 40px;
+  }
+
+  .side-bar {
+    width: 100vw;
+  }
+  .event-table tr th {
+    padding: 10px 15px 0 10px;
+  }
+  .speaker-profile-img-area {
+    width: 40px;
+    height: 40px;
+  }
+  .event-table tr td {
+    padding: 10px 15px 10px 10px;
+  }
+  .course-slider-area {
+    padding: 0 0rem;
+  }
+  .course-slider-btn-area {
+    display: none;
+  }
+  .online-status {
+    height: 10px;
+    width: 10px;
+    bottom: 3px;
+    right: 0px;
+  }
+  .chat-header-left {
+    gap: 10px;
+  }
+  .chat-user-img-area {
+    max-width: 44px;
+  }
+  .chat-user-img {
+    height: 44px;
+    width: 44px;
+  }
+  .message-area {
+    height: calc(100vh - 270px);
+  }
+  .users-detail-area {
+    height: calc(100vh - 170px);
+  }
+  .chat-menu-btn {
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+  }
+  .send-msg-input {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .send-msg-input::placeholder {
+    font-size: 14px;
+  }
+  .chat-header {
+    padding: 8px 10px 8px 10px;
+  }
+  .send-msg-btn {
+    font-size: 20px;
+  }
+  .message-sender-area {
+    padding: 5px 13px;
+  }
+  .chat-footer {
+    padding: 10px 10px;
+  }
+  .message-recieve-area.send-message {
+    max-width: 250px;
+  }
+  .message-recieve-area-main {
+    max-width: 250px;
+  }
+  .portfolio-state-price {
+    font-size: 1.8rem;
+  }
+  .portfolio-state-title {
+    font-size: 2.5rem;
+  }
+  .asset-box {
+    border-radius: 10px;
+    float: unset;
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+    width: 100%;
+    max-width: unset;
+  }
+  .sb-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .text-wbkit-center {
+    text-align: -webkit-center;
+  }
+  .main {
+    padding: 2rem 1rem;
+  }
+  .header {
+    padding: 2rem 1rem;
+  }
+  .circular-progress {
+    width: 190px;
+    height: 190px;
+  }
+  .menu-btn {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    font-size: 2.5rem;
+    margin-left: 10px;
+  }
+  .header-btn {
+    margin-left: 15px;
+  }
+  .header-btn {
+    gap: 10px;
+  }
+  .user-img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust font size for chart title */
+  #trade-chartContainer .canvasjs-chart-title {
+    font-size: 12px; /* Reduce font size for the title */
+  }
+
+  /* Adjust font size for axis labels */
+  #trade-chartContainer .canvasjs-axis-label {
+    font-size: 10px; /* Reduce font size for axis labels */
+  }
+
+  /* Adjust font size for tooltips, etc. */
+  #trade-chartContainer .canvasjs-chart-tooltip {
+    font-size: 10px; /* Reduce tooltip font size */
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  #trade-chartContainer {
+    height: 270px !important;
+  }
+  .subs-points-list {
+    height: 200px;
+  }
+  .login-sb-title {
+    font-size: 4rem;
+  }
+  .login-title {
+    font-size: 5rem;
+  }
+  .login-fields-main {
+    padding: 3rem 1rem;
+    border-radius: 15px;
+  }
+  .yearly-access {
+    font-size: 2.8rem;
+  }
+  .yearly-access-price {
+    font-size: 4.4rem;
+  }
+  .course-detail-title {
+    font-size: 2.5rem;
+  }
+  .course-detail-img {
+    height: 250px;
+  }
+  .course-admin-pro {
+    gap: 20px 30px;
+  }
+  .circle-angel {
+    height: 20px;
+    width: 20px;
+    font-size: 1.6rem;
+  }
+  .course-tabs-btns-list {
+    gap: 20px 0;
+  }
+  .course-tabs-btns-list li {
+    width: 47%;
+  }
+  .course-admin-pro div:first-child:after {
+    display: none;
+  }
+  .course-admin-pro {
+    flex-wrap: wrap;
+  }
+  .course-admin-pro div:first-child {
+    width: 100%;
+  }
+  .event-hide .calendar-inner {
+    max-width: 100%;
+    height: 410px;
+  }
+  .course-slider-area {
+    margin-top: 30px;
+  }
+  .event-detail-reviews-area {
+    gap: 20px;
+  }
+  .event-detail-img {
+    height: 240px;
+  }
+
+  .event-detail-review {
+    font-size: 2rem;
+  }
+  .event-detail-reviews-area div::after {
+    right: -10px;
+  }
+  .event-detail-profile-img {
+    height: 50px;
+    width: 50px;
+  }
+  .event-detail-left {
+    padding: 15px 15px;
+  }
+  #chartContainer {
+    height: 400px !important;
+  }
+  .calendar-sidebar > .month-list {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 43px);
+    overflow-y: auto;
+    background-color: #8773c1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    z-index: -1;
+  }
+  #msform p {
+    font-size: 18px;
+  }
+
+  .fs-title,
+  th[colspan="7"] {
+    font-size: 22px;
+  }
+
+  .provide-step-area ul {
+    padding-left: 0;
+  }
+
+  .provide-step-area ul p {
+    font-size: 12px;
+  }
+
+  .provide-step-area ul p {
+    font-size: 15px !important;
+  }
+
+  .provide-step-area ul p input {
+    display: block;
+  }
+
+  .provide-step-area ul p input {
+    width: 100% !important;
+    margin: 0 0 10px !important;
+  }
+
+  tr.calendar-header .calendar-header-day {
+    padding: 21px 0 0 0;
+    font-size: 12px;
+    width: 10px;
+  }
+
+  /* tr.calendar-body .calendar-day .day {
+      font-size: 12px;
       width: 100%;
       height: 100%;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .event-hide .calendar-inner {
-      max-width: 100%;
-      height: 410px;
-  }
-    .calendar-sidebar>.month-list {
-        position: relative;
-        width: 100%;
-        height: calc(100% - 43px);
-        overflow-y: auto;
-        background-color: #8773c1;
-        -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-        transform: translateY(0);
-        z-index: -1;
-    }
-    #msform p {
-      font-size: 18px;
-    }
-  
-    .fs-title,
-    th[colspan="7"] {
-      font-size: 22px;
-    }
-  
-    .provide-step-area ul {
-      padding-left: 0;
-    }
-  
-    .provide-step-area ul p {
-      font-size: 12px;
-    }
-  
-    .provide-step-area ul p {
-      font-size: 15px !important;
-    }
-  
-    .provide-step-area ul p input {
-      display: block;
-    }
-  
-    .provide-step-area ul p input {
-      width: 100% !important;
-      margin: 0 0 10px !important;
-    }
-  
-    tr.calendar-header .calendar-header-day {
-      padding: 21px 0 0 0;
-      font-size: 12px;
-      width: 10px;
-    }
-  
-    /* tr.calendar-body .calendar-day .day {
-      font-size: 12px;
-      width: 100%;
-      height: 100%;
     } */
-  
-  
-    #msform label {
-      font-size: 18px;
-    }
+
+  #msform label {
+    font-size: 18px;
   }
-  
-  @media (max-width: 425px) {
-    .event-hide .calendar-inner {
-        height: 340px;
-    }
-    
-    .calendar-sidebar {
-      background-color: #0b6322 !important;
-      width: 100%;
-    }
-  
-    .calendar-sidebar > span#sidebarToggler {
-      background-color: transparent;
-      box-shadow: unset;
-      top: 17px;
-      right: 10px;
-      display: flex;
-      align-items: center;
-    }
-  
-    button.icon-button > span.bars,
-    button.icon-button > span.bars::before,
-    button.icon-button > span.bars::after {
-      height: 3px;
-    }
-  
-    .calendar-sidebar > span#sidebarToggler,
-    #eventListToggler {
-      width: 33px;
-      height: 33px;
-      padding: 2px 3px;
-    }
-  
-    .calendar-year::after {
-      display: none;
-    }
-  
-    .calendar-sidebar > .month-list,
-    .calendar-sidebar > .calendar-year {
-      box-shadow: unset;
-    }
+}
+
+@media (max-width: 425px) {
+  .input-search {
+    height: 45px;
   }
+  .form-container {
+    margin-top: 30px;
+  }
+  .subs-plan-title {
+    font-size: 3.5rem;
+  }
+  .price-yearly-access {
+    max-width: 420px;
+    padding: 15px 10px;
+  }
+  .inst-dura-detail div.position-relative {
+    width: 100%;
+  }
+  .enrolled-course-area {
+    padding: 15px 15px;
+  }
+  .enrolled-video {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .course-detail-img {
+    height: 220px;
+  }
+  .course-enroll-link {
+    padding: 6px 15px;
+  }
+  .event-detail-reviews-area div::after {
+    right: -6px;
+    height: 25px;
+  }
+  .event-detail-reviews-area {
+    gap: 10px;
+  }
+  .search-btn {
+    width: 44px;
+    height: 42px;
+  }
+  .list-disc-para {
+    font-size: 1.6rem;
+  }
+  .course-discription-area {
+    padding: 20px 15px;
+  }
+  .sorting-selects-area div:nth-child(2) {
+    max-width: 150px;
+  }
+  .sorting-selects-area div:nth-child(1) {
+    max-width: 90px;
+  }
+  .event-hide .calendar-inner {
+    height: 340px;
+  }
+
+  .calendar-sidebar {
+    background-color: #0b6322 !important;
+    width: 100%;
+  }
+
+  .calendar-sidebar > span#sidebarToggler {
+    background-color: transparent;
+    box-shadow: unset;
+    top: 17px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  button.icon-button > span.bars,
+  button.icon-button > span.bars::before,
+  button.icon-button > span.bars::after {
+    height: 3px;
+  }
+
+  .calendar-sidebar > span#sidebarToggler,
+  #eventListToggler {
+    width: 33px;
+    height: 33px;
+    padding: 2px 3px;
+  }
+
+  .calendar-year::after {
+    display: none;
+  }
+
+  .calendar-sidebar > .month-list,
+  .calendar-sidebar > .calendar-year {
+    box-shadow: unset;
+  }
+}
+
+@media (max-width: 375px) {
+  .event-detail-review {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  #trade-chartContainer {
+    height: 240px !important;
+  }
+  .head-para {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .course-img {
+    height: 200px;
+  }
+  .event-detail-tabs {
+    margin: 20px 0 20px;
+  }
+  .event-detail-img {
+    height: 200px;
+  }
+  .event-trailor-video {
+    height: 220px;
+  }
+  .event-learning-li {
+    width: 100%;
+  }
+  .event-app-btns {
+    gap: 10px !important;
+  }
+}

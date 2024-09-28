@@ -21,9 +21,9 @@
                                 <div class="">
                                     <div class="dropdown">
                                         <button class="btn btn-secondary header-btn bg-transparent border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <div class=" d-flex justify-content-start align-items-center gap-4">
+                                            <div class=" d-flex justify-content-start align-items-center gap-lg-4 gap-md-4 gap-sm-4 gap-3">
                                                 <div class="user-img-area">
-                                                    <img class="img-fluid user-img" src="./assets/images/user-porfile-img.png" alt="">
+                                                    <img class=" user-img" src="./assets/images/user-porfile-img.png" alt="">
                                                 </div>
                                                 <div class="">
                                                     <span class="user-name d-block">Mr. ABCD</span>
@@ -47,6 +47,11 @@
                                             </li>
                                         </ul>
                                     </div>
+                                </div>
+                                <div class="menu-btn-area">
+                                    <button type="button" class="menu-btn">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>

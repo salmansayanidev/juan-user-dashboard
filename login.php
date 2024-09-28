@@ -17,10 +17,16 @@ include "head.php"
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12">
-                                <h2 class="login-sb-title">Login</h2>
-                                <p class="login-para">Login to your User dashboard</p>
+                                <div class="login-right-logo-area text-center mb-4">
+                                    <img class="img-fluid login-right-logo mb-4" src="./assets/images/login-right-logo.png" alt="">
+                                    <h1 class="login-title text-black m-0">welcome to</h1>
+                                </div>
                             </div>
-                            <div class="col-12 col-lg-7">
+                            <div class="col-12">
+                                <h2 class="login-sb-title text-center text-lg-start text-md-center">Login</h2>
+                                <p class="login-para text-center text-lg-start text-md-center">Login to your User dashboard</p>
+                            </div>
+                            <div class="col-12 col-lg-12 col-xl-9 col-xx-10">
                                 <form action="">
                                     <div class="login-fields-main">
 

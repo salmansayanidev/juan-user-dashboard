@@ -25,7 +25,11 @@ include "header.php"
                         <span class="portfolio-state-price fw-normal">Currency</span>
                         <h3 class="portfolio-state-title fw-medium text-black">USD</h3>
 
-                        <div id="chartContainer" style="height: 500px; width: 100%;"></div>
+                        <div class="position-relative">
+                            <div id="trade-chartContainer" style="height: 450px; width: 100%;"></div>
+                            <img id="loader" src="https://canvasjs.com/wp-content/uploads/images/gallery/javascript-stockcharts/overview/loading.gif" style="position: absolute; top: 150px; left: 48%; display: none" />
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-12">
@@ -207,8 +211,7 @@ include "header.php"
 include "footer.php"
 ?>
 
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
 <script type="text/javascript" src="https://cdn.canvasjs.com/canvasjs.stock.min.js"></script>
 
 
@@ -254,103 +257,71 @@ include "footer.php"
 <script type="text/javascript">
     window.onload = function() {
         var dataPoints1 = [],
-            dataPoints2 = [],
-            dataPoints3 = [];
-        var stockChart = new CanvasJS.StockChart("chartContainer", {
-            exportEnabled: true,
-            theme: "light2",
+            dataPoints2 = [];
+        var stockChart = new CanvasJS.StockChart("trade-chartContainer", {
             title: {
                 text: ""
             },
+            
+            rangeChanged: rangeChanged,
             charts: [{
-                toolTip: {
-                    shared: true
-                },
-                axisX: {
-                    lineThickness: 5,
-                    tickLength: 0,
-                    labelFormatter: function(e) {
-                        return "";
-                    },
-                    crosshair: {
-                        enabled: true,
-                        snapToDataPoint: true,
-                        labelFormatter: function(e) {
-                            return ""
-                        }
-                    }
-                },
                 axisY2: {
-                    title: "",
                     prefix: "$"
                 },
-                legend: {
-                    verticalAlign: "top",
-                    horizontalAlign: "left"
-                },
                 data: [{
-                    name: "Price (in USD)",
+                    type: "candlestick",
                     yValueFormatString: "$#,###.##",
                     axisYType: "secondary",
-                    type: "candlestick",
-                    risingColor: "blue",
-                    fallingColor: "red",
+                    risingColor: "#02BBA9",           // Color for rising candles (teal)
+                    fallingColor: "#FF6A63",          // Color for falling candles (red)
+                    risingBorderColor: "#02BBA9",     // Border color matching rising candle
+                    fallingBorderColor: "#FF6A63",    // Border color matching falling candle
+                    risingLineColor: "#02BBA9",       // Wick color for rising candles
+                    fallingLineColor: "#FF6A63",      // Wick color for falling candles
                     dataPoints: dataPoints1
                 }]
-            }, {
-                height: 100,
-                toolTip: {
-                    shared: true
-                },
-                axisX: {
-                    crosshair: {
-                        enabled: true,
-                        snapToDataPoint: true
-                    }
-                },
-                axisY2: {
-                    prefix: "$",
-                    title: "LTC/EUR"
-                },
-                legend: {
-                    horizontalAlign: "left"
-                },
-                data: [{
-                    yValueFormatString: "€#,###.##",
-                    axisYType: "secondary",
-                    name: "",
-                    dataPoints: dataPoints2
-                }]
             }],
-            navigator: {
-                data: [{
-                    color: "black",
-                    dataPoints: dataPoints3
-                }],
-                slider: {
-                    minimum: new Date(2018, 06, 01),
-                    maximum: new Date(2018, 08, 01)
-                }
-            }
         });
-        $.getJSON("https://canvasjs.com/data/docs/ltceur2018.json", function(data) {
+
+        function addData(data) {
+            stockChart.options.charts[0].data[0].dataPoints = [];
+            for (var i = 0; i < data.length; i++) {
+                stockChart.options.charts[0].data[0].dataPoints.push({
+                    x: new Date(data[i].dateTime * 1000),
+                    y: [Number(data[i].open), Number(data[i].high), Number(data[i].low), Number(data[i].close)]
+                });
+            }
+            stockChart.render();
+        }
+
+        function rangeChanged(e) {
+            var minimum = parseInt(e.minimum / 1000);
+            var maximum = parseInt(e.maximum / 1000);
+            var url = "https://canvasjs.com/services/data/datapoints-bitcoinusd.php?minimum=" + minimum + "&maximum=" + maximum;
+            $("#loader").css("display", "block");
+            $.getJSON(url, function(data) {
+                addData(data);
+                $("#loader").css("display", "none");
+            });
+        }
+        $("#loader").css("display", "block");
+        $.getJSON("https://canvasjs.com/services/data/datapoints-bitcoinusd.php", function(data) {
             for (var i = 0; i < data.length; i++) {
                 dataPoints1.push({
-                    x: new Date(data[i].date),
-                    y: [Number(data[i].open), Number(data[i].high), Number(data[i].low), Number(data[i].close)],
-                    color: data[i].open < data[i].close ? "green" : "red"
-                });;
-                dataPoints2.push({
-                    x: new Date(data[i].date),
-                    y: Number(data[i].volume_eur),
-                    color: data[i].open < data[i].close ? "green" : "red"
+                    x: new Date(data[i].dateTime * 1000),
+                    y: [Number(data[i].open), Number(data[i].high), Number(data[i].low), Number(data[i].close)]
                 });
-                dataPoints3.push({
-                    x: new Date(data[i].date),
+                dataPoints2.push({
+                    x: new Date(data[i].dateTime * 1000),
                     y: Number(data[i].close)
                 });
             }
+            $("#loader").css("display", "none");
             stockChart.render();
         });
     }
 </script>
+
+
+
+

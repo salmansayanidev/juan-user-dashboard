@@ -149,12 +149,7 @@ include "header.php"
                         <div class="user-chat-area">
 
                             <div class="chat-header">
-                                <div class="chat-header-left">
-                                    <div class="sidebar-btn-area">
-                                        <button class="user-list-btn">
-                                            <i class="fa-solid fa-bars"></i>
-                                        </button>
-                                    </div>
+                                <div class="chat-header-left flex-grow-1">
                                     <div class="chat-user-img-area position-relative">
                                         <a class=" text-decoration-none" href="#">
                                             <img class="chat-user-img" src="./assets/images/message-user-img.png" alt="">
@@ -165,6 +160,12 @@ include "header.php"
                                         <h2 class=" active-chat-user-name mb-2">Jessica Drew</h2>
                                         <span class=" active-chat-user-tag m-0">Chat Room</span>
                                     </div>
+                                </div>
+
+                                <div class="">
+                                    <button class="chat-menu-btn" type="button">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </button>
                                 </div>
                             </div>
 
@@ -260,6 +261,12 @@ include "footer.php"
 
 <script>
 
+    $(".chat-menu-btn").on("click" , function() {
+        $(".user-list-sidebar").addClass("active");
+    });
+    $(".userListCloseBtn").on("click" , function() {
+        $(".user-list-sidebar").removeClass("active");
+    });
 
     const fileInput = document.getElementById('msg-file');
     const textArea = document.getElementById('msg-textarea');
@@ -280,15 +287,5 @@ new EmojiPicker({
     //specialButtons: green
 });
 
-    const userListSidebar = document.querySelector('.user-list-sidebar')
-    const userListBtn = document.querySelector('.user-list-btn')
-    const userLisClstBtn = document.querySelector('.userListCloseBtn')
-
-    userListBtn.addEventListener('click' , () => {
-        userListSidebar.classList.add('active')
-    })
-
-    userLisClstBtn.addEventListener('click' , () => {
-        userListSidebar.classList.remove('active')
-    })
+    
 </script>
